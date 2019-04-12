@@ -1,7 +1,3 @@
-#include <iostream>
-
-using namespace std;
-
 class myvector {
     int sz;
     double* elem;
@@ -18,9 +14,5 @@ public:
 
     int sizze() const { return sz; }
 };
-int main()
-{
-    cout << sizeof( int) << endl;
-    return 0;
-}
+
 
