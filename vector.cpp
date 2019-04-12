@@ -3,6 +3,6 @@ class myvector {
     double* elem;
 public:
     myvector(int s);
-    int sz() const { return sz; }
+    int sizze() const { return sz; }
 
 };
